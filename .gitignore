@@ -1,0 +1,27 @@
+# 密钥和敏感配置
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.crt
+*.cert
+*.jks
+secrets/
+keys/
+passwords.txt
+
+# 个人配置
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/datasources/
+.idea/dataSources.ids
+
+# 操作系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
